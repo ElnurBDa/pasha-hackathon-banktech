@@ -20,7 +20,7 @@
       "phone": "+994 55 123 4567",
       "registration_date": "2012-09-18"
     },
-    "fin": "8T9QLW2",
+    "fin": "7X2B9FQ",
     "owner": "Leyla Aliyeva",
     "reason": "Numerous transactions were executed for the same amount across different counterparties on identical dates. This pattern is highly unusual in standard commercial activity and may indicate artificial movement of funds. The lack of contract references or invoices deepens the compliance concern.",
     "score": 0.52
@@ -59,7 +59,7 @@
       "phone": "+994 50 555 1122",
       "registration_date": "2010-02-15"
     },
-    "fin": "1V7LKZ8",
+    "fin": "7X2B9FQ",
     "owner": "Kamran Karimov",
     "reason": "A cluster of same-value transactions was observed across accounts over short time windows, often within hours. No supporting documents or business justifications were provided upon inquiry. This may indicate laundering behavior or deliberate obfuscation of fund sources.",
     "score": 0.47

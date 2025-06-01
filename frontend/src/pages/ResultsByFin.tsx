@@ -11,7 +11,7 @@ import { Organization } from "../types";
 
 const ResultsByFin: React.FC = () => {
     const { fin } = useParams<{ fin: string }>();
-    const navigate = useNavigate();
+    const navigate = useNavigate(); 
 
     if (!fin) {
         navigate("/");
@@ -19,7 +19,7 @@ const ResultsByFin: React.FC = () => {
     }
 
     // Assume fetchOrganizationsByFin returns Organization[]
-    const organizations: Organization[] = fetchOrganizationsByFin(fin);
+    const organizations: Organization[] = fetchOrganizationsByFin("7X2B9FQ");
 
     if (!organizations || organizations.length === 0) {
         return (
