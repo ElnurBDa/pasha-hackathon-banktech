@@ -7,10 +7,10 @@
       "phone": "+994 12 345 6789",
       "registration_date": "2005-04-12"
     },
-    "fin": "AZE1234567",
+    "fin": "AZE7X2B",
     "owner": "Elchin Mammadov",
-    "reason": "This company has met all compliance and financial audit standards and is considered low risk.",
-    "score": 0.85
+    "reason": "The company’s declared revenue has increased sharply without a corresponding rise in operational output. Financials show signs of inflated turnovers aimed at securing higher credit lines. This may impact the credibility of their reported financial health.",
+    "score": 0.58
   },
   {
     "voen_id": "1122334456",
@@ -20,10 +20,10 @@
       "phone": "+994 55 123 4567",
       "registration_date": "2012-09-18"
     },
-    "fin": "AZE9876543",
+    "fin": "AZE8T9Q",
     "owner": "Leyla Aliyeva",
-    "reason": "The entity has been flagged for potential VAT fraud detected through irregular invoicing and mismatch in declared revenues.",
-    "score": 0.65
+    "reason": "Numerous same-amount transfers were recorded on identical dates from multiple unrelated accounts. These transactions lack business justification and raise suspicion of coordinated movements to simulate legitimate operations. Further analysis is recommended to verify source and intent.",
+    "score": 0.52
   },
   {
     "voen_id": "1122334457",
@@ -33,10 +33,10 @@
       "phone": "+994 70 987 6543",
       "registration_date": "2008-11-05"
     },
-    "fin": "AZE1234567",
+    "fin": "AZE5H2K",
     "owner": "Elchin Mammadov",
-    "reason": "There is evidence of turnover manipulation through circular transactions among three subsidiary companies to inflate financial statements.",
-    "score": 0.55
+    "reason": "Financial data reveals a pattern of circular transactions between this entity and two subsidiaries. This creates an artificial increase in revenue and suggests phantom income. There is a material risk that financials are being manipulated for external perception.",
+    "score": 0.45
   },
   {
     "voen_id": "1122334458",
@@ -46,10 +46,10 @@
       "phone": "+994 77 334 2211",
       "registration_date": "2015-06-20"
     },
-    "fin": "AZE5558882",
+    "fin": "AZE3M8Z",
     "owner": "Rashad Huseynov",
-    "reason": "Suspicious transaction patterns indicate possible money laundering activities, warranting further detailed investigation.",
-    "score": 0.45
+    "reason": "Entities tied to the owner are engaged in inter-company transfers with no contractual basis. These transactions resemble phantom payments often used to mask actual fund sources. The structure and pattern are consistent with early-stage laundering techniques.",
+    "score": 0.40
   },
   {
     "voen_id": "6677889900",
@@ -59,10 +59,10 @@
       "phone": "+994 50 555 1122",
       "registration_date": "2010-02-15"
     },
-    "fin": "AZE7773331",
+    "fin": "AZE1V7L",
     "owner": "Kamran Karimov",
-    "reason": "Detected inconsistencies in transaction records between affiliated entities suggesting potential tax evasion practices.",
-    "score": 0.60
+    "reason": "Analysis shows repeated same-value transactions between 5 different entities within a 24-hour period. These appear to be artificial in nature and designed to obfuscate the real transaction trail. A more thorough investigation into beneficiary accounts is warranted.",
+    "score": 0.47
   },
   {
     "voen_id": "7788990011",
@@ -72,10 +72,10 @@
       "phone": "+994 51 222 3344",
       "registration_date": "2017-03-10"
     },
-    "fin": "AZE5558882",
+    "fin": "AZE4B6X",
     "owner": "Rashad Huseynov",
-    "reason": "Company recently expanded operations, pending compliance review.",
-    "score": 0.70
+    "reason": "Annual income reported by the company shows an uncharacteristic jump compared to industry averages. There are no matching increases in cost of sales or staffing. This discrepancy may suggest overstated income to enhance perceived profitability.",
+    "score": 0.50
   },
   {
     "voen_id": "8899001122",
@@ -85,10 +85,10 @@
       "phone": "+994 55 444 5566",
       "registration_date": "2018-08-22"
     },
-    "fin": "AZE1112223",
+    "fin": "AZE9N3D",
     "owner": "Nigar Guliyeva",
-    "reason": "No compliance issues detected, regular financial reporting.",
-    "score": 0.90
+    "reason": "Audit trail reveals multiple transactions from unrelated companies made at the exact same timestamp and for identical amounts. These coordinated movements are atypical of normal retail operations. The pattern raises red flags about synthetic transaction layering.",
+    "score": 0.65
   },
   {
     "voen_id": "9900112233",
@@ -98,10 +98,10 @@
       "phone": "+994 70 666 7788",
       "registration_date": "2019-12-01"
     },
-    "fin": "AZE9876543",
+    "fin": "AZE2J6Y",
     "owner": "Leyla Aliyeva",
-    "reason": "Recent audit found minor discrepancies, corrective actions underway.",
-    "score": 0.75
+    "reason": "Incoming funds originate from dormant or inactive entities that have no declared business with the recipient. These fund transfers show limited transaction narratives and lack transparency. Source verification and forensic tracing are advised.",
+    "score": 0.49
   },
   {
     "voen_id": "2233445566",
@@ -111,10 +111,10 @@
       "phone": "+994 12 888 9999",
       "registration_date": "2013-05-17"
     },
-    "fin": "AZE4445556",
+    "fin": "AZE6W4R",
     "owner": "Farid Abbasov",
-    "reason": "Pending investigation for irregular land acquisition.",
-    "score": 0.50
+    "reason": "Three interconnected companies have been cycling capital between themselves in fixed amounts. This pattern appears to be designed to inflate turnover for loan eligibility or tax manipulation. No documented service or goods exchange supports these payments.",
+    "score": 0.42
   },
   {
     "voen_id": "3344556677",
@@ -124,9 +124,4 @@
       "phone": "+994 77 111 2233",
       "registration_date": "2021-01-30"
     },
-    "fin": "AZE2223334",
-    "owner": "Aysel Rahimova",
-    "reason": "Newly registered company, no compliance history yet.",
-    "score": 0.80
-  }
-]
+
