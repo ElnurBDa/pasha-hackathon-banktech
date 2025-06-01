@@ -7,9 +7,9 @@
       "phone": "+994 12 345 6789",
       "registration_date": "2005-04-12"
     },
-    "fin": "AZE7X2B",
+    "fin": "7X2B9FQ",
     "owner": "Elchin Mammadov",
-    "reason": "The company’s declared revenue has increased sharply without a corresponding rise in operational output. Financials show signs of inflated turnovers aimed at securing higher credit lines. This may impact the credibility of their reported financial health.",
+    "reason": "The company’s declared revenue has increased sharply without a corresponding rise in operational output. Financial statements suggest inflated turnovers, likely aimed at securing better financing terms or attracting investors. The discrepancy between growth in revenue and physical assets raises concerns about data reliability.",
     "score": 0.58
   },
   {
@@ -20,9 +20,9 @@
       "phone": "+994 55 123 4567",
       "registration_date": "2012-09-18"
     },
-    "fin": "AZE8T9Q",
+    "fin": "8T9QLW2",
     "owner": "Leyla Aliyeva",
-    "reason": "Numerous same-amount transfers were recorded on identical dates from multiple unrelated accounts. These transactions lack business justification and raise suspicion of coordinated movements to simulate legitimate operations. Further analysis is recommended to verify source and intent.",
+    "reason": "Numerous transactions were executed for the same amount across different counterparties on identical dates. This pattern is highly unusual in standard commercial activity and may indicate artificial movement of funds. The lack of contract references or invoices deepens the compliance concern.",
     "score": 0.52
   },
   {
@@ -33,9 +33,9 @@
       "phone": "+994 70 987 6543",
       "registration_date": "2008-11-05"
     },
-    "fin": "AZE5H2K",
+    "fin": "5H2KVRL",
     "owner": "Elchin Mammadov",
-    "reason": "Financial data reveals a pattern of circular transactions between this entity and two subsidiaries. This creates an artificial increase in revenue and suggests phantom income. There is a material risk that financials are being manipulated for external perception.",
+    "reason": "The company is involved in structured, round-tripping payments among its subsidiaries. These transactions appear designed to simulate revenue and boost financial ratios. External verification failed to identify real business purpose for the reported inflows.",
     "score": 0.45
   },
   {
@@ -46,9 +46,9 @@
       "phone": "+994 77 334 2211",
       "registration_date": "2015-06-20"
     },
-    "fin": "AZE3M8Z",
+    "fin": "3M8ZYWQ",
     "owner": "Rashad Huseynov",
-    "reason": "Entities tied to the owner are engaged in inter-company transfers with no contractual basis. These transactions resemble phantom payments often used to mask actual fund sources. The structure and pattern are consistent with early-stage laundering techniques.",
+    "reason": "Several fund movements originate from companies with no online or tax presence, often referred to as phantom entities. The pattern of payments is consistent with tactics used to clean or circulate undeclared capital. The lack of transaction memos or documented purpose heightens risk exposure.",
     "score": 0.40
   },
   {
@@ -59,9 +59,9 @@
       "phone": "+994 50 555 1122",
       "registration_date": "2010-02-15"
     },
-    "fin": "AZE1V7L",
+    "fin": "1V7LKZ8",
     "owner": "Kamran Karimov",
-    "reason": "Analysis shows repeated same-value transactions between 5 different entities within a 24-hour period. These appear to be artificial in nature and designed to obfuscate the real transaction trail. A more thorough investigation into beneficiary accounts is warranted.",
+    "reason": "A cluster of same-value transactions was observed across accounts over short time windows, often within hours. No supporting documents or business justifications were provided upon inquiry. This may indicate laundering behavior or deliberate obfuscation of fund sources.",
     "score": 0.47
   },
   {
@@ -72,9 +72,9 @@
       "phone": "+994 51 222 3344",
       "registration_date": "2017-03-10"
     },
-    "fin": "AZE4B6X",
+    "fin": "4B6XNPT",
     "owner": "Rashad Huseynov",
-    "reason": "Annual income reported by the company shows an uncharacteristic jump compared to industry averages. There are no matching increases in cost of sales or staffing. This discrepancy may suggest overstated income to enhance perceived profitability.",
+    "reason": "Revenue growth in the past year is nearly triple that of the industry average with no matching capital investment or cost ratio shift. Discrepancies were also noted between inventory turnover and reported delivery volume. These indicators suggest likely overstatement of income.",
     "score": 0.50
   },
   {
@@ -85,9 +85,9 @@
       "phone": "+994 55 444 5566",
       "registration_date": "2018-08-22"
     },
-    "fin": "AZE9N3D",
+    "fin": "9N3DLYK",
     "owner": "Nigar Guliyeva",
-    "reason": "Audit trail reveals multiple transactions from unrelated companies made at the exact same timestamp and for identical amounts. These coordinated movements are atypical of normal retail operations. The pattern raises red flags about synthetic transaction layering.",
+    "reason": "Forensic review showed repeated deposits from different entities within the same minute and with identical amounts. There is no indication of corresponding sales or operational triggers to explain this behavior. The activity profile is atypical and suggests transaction layering.",
     "score": 0.65
   },
   {
@@ -98,9 +98,9 @@
       "phone": "+994 70 666 7788",
       "registration_date": "2019-12-01"
     },
-    "fin": "AZE2J6Y",
+    "fin": "2J6YQWX",
     "owner": "Leyla Aliyeva",
-    "reason": "Incoming funds originate from dormant or inactive entities that have no declared business with the recipient. These fund transfers show limited transaction narratives and lack transparency. Source verification and forensic tracing are advised.",
+    "reason": "Recent inflows originated from previously deregistered entities that are known for proxy funding. The transactions lack explanatory notes or matched operational expense entries. This creates high opacity in cash flows and reduces audit traceability.",
     "score": 0.49
   },
   {
@@ -111,9 +111,9 @@
       "phone": "+994 12 888 9999",
       "registration_date": "2013-05-17"
     },
-    "fin": "AZE6W4R",
+    "fin": "6W4RNTM",
     "owner": "Farid Abbasov",
-    "reason": "Three interconnected companies have been cycling capital between themselves in fixed amounts. This pattern appears to be designed to inflate turnover for loan eligibility or tax manipulation. No documented service or goods exchange supports these payments.",
+    "reason": "A pattern of cyclical transactions between three affiliated companies has been identified, with no material services exchanged. These transactions appear to inflate revenue and manipulate liquidity ratios. This practice is commonly associated with deceptive financial positioning.",
     "score": 0.42
   },
   {
@@ -124,4 +124,9 @@
       "phone": "+994 77 111 2233",
       "registration_date": "2021-01-30"
     },
-
+    "fin": "0Q5UDFE",
+    "owner": "Aysel Rahimova",
+    "reason": "Despite being a newly incorporated entity, the company has already received large cash inflows from loosely documented sources. These transactions are followed by withdrawals or transfers to unrelated personal accounts. Such activity is a common indicator of potential fund routing for external beneficiaries.",
+    "score": 0.55
+  }
+]
