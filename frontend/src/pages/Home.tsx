@@ -10,7 +10,7 @@ const Home: React.FC = () => {
   const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!fin.trim()) return;
-    navigate(`/results-by-fin/${fin.trim()}`);
+    navigate(`/results-by-fin?fin=${encodeURIComponent(fin.trim())}`);
   };
 
   return (

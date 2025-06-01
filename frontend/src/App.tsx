@@ -11,7 +11,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/results/:voen" element={<Results />} />
-        <Route path="/results-by-fin/:fin" element={<ResultsByFin />} />
+        <Route path="/results-by-fin" element={<ResultsByFin />} />
       </Routes>
     </Router>
   );

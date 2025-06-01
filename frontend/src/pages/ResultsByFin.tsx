@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import ScoreCircle from "../components/ScoreCircle";
 import StateIndicator from "../components/StateIndicator";
 import MainInfo from "../components/MainInfo";
@@ -7,11 +7,13 @@ import { fetchOrganizationsByFin } from "../utils/dataFetcher";
 import ReasonDescription from "../components/ReasonDescription";
 import { Organization } from "../types";
 
-// filepath: c:\Users\BATMAN\Pasha\banktech\src\pages\ResultsByFin.tsx
-
 const ResultsByFin: React.FC = () => {
-    const { fin } = useParams<{ fin: string }>();
-    const navigate = useNavigate(); 
+    const location = useLocation();
+    const navigate = useNavigate();
+
+    // Parse the query string to get the 'fin' parameter
+    const queryParams = new URLSearchParams(location.search);
+    const fin = queryParams.get("fin");
 
     if (!fin) {
         navigate("/");
@@ -19,7 +21,7 @@ const ResultsByFin: React.FC = () => {
     }
 
     // Assume fetchOrganizationsByFin returns Organization[]
-    const organizations: Organization[] = fetchOrganizationsByFin("7X2B9FQ");
+    const organizations: Organization[] = fetchOrganizationsByFin(fin);
 
     if (!organizations || organizations.length === 0) {
         return (
