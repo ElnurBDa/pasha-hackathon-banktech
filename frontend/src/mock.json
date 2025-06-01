@@ -1,0 +1,132 @@
+[
+  {
+    "voen_id": "1122334455",
+    "main_info": {
+      "name": "Pasha Bank LLC",
+      "address": "123 Corporate Blvd, Baku",
+      "phone": "+994 12 345 6789",
+      "registration_date": "2005-04-12"
+    },
+    "fin": "AZE1234567",
+    "owner": "Elchin Mammadov",
+    "reason": "This company has met all compliance and financial audit standards and is considered low risk.",
+    "score": 0.85
+  },
+  {
+    "voen_id": "1122334456",
+    "main_info": {
+      "name": "BankTech Solutions",
+      "address": "456 Innovation Ave, Baku",
+      "phone": "+994 55 123 4567",
+      "registration_date": "2012-09-18"
+    },
+    "fin": "AZE9876543",
+    "owner": "Leyla Aliyeva",
+    "reason": "The entity has been flagged for potential VAT fraud detected through irregular invoicing and mismatch in declared revenues.",
+    "score": 0.65
+  },
+  {
+    "voen_id": "1122334457",
+    "main_info": {
+      "name": "Global Trade Corp",
+      "address": "789 Commerce St, Baku",
+      "phone": "+994 70 987 6543",
+      "registration_date": "2008-11-05"
+    },
+    "fin": "AZE1234567",
+    "owner": "Elchin Mammadov",
+    "reason": "There is evidence of turnover manipulation through circular transactions among three subsidiary companies to inflate financial statements.",
+    "score": 0.55
+  },
+  {
+    "voen_id": "1122334458",
+    "main_info": {
+      "name": "Future Vision LLC",
+      "address": "321 Innovation Park, Baku",
+      "phone": "+994 77 334 2211",
+      "registration_date": "2015-06-20"
+    },
+    "fin": "AZE5558882",
+    "owner": "Rashad Huseynov",
+    "reason": "Suspicious transaction patterns indicate possible money laundering activities, warranting further detailed investigation.",
+    "score": 0.45
+  },
+  {
+    "voen_id": "6677889900",
+    "main_info": {
+      "name": "Techno Services",
+      "address": "654 Digital Rd, Baku",
+      "phone": "+994 50 555 1122",
+      "registration_date": "2010-02-15"
+    },
+    "fin": "AZE7773331",
+    "owner": "Kamran Karimov",
+    "reason": "Detected inconsistencies in transaction records between affiliated entities suggesting potential tax evasion practices.",
+    "score": 0.60
+  },
+  {
+    "voen_id": "7788990011",
+    "main_info": {
+      "name": "Caspian Logistics",
+      "address": "101 Port Ave, Baku",
+      "phone": "+994 51 222 3344",
+      "registration_date": "2017-03-10"
+    },
+    "fin": "AZE5558882",
+    "owner": "Rashad Huseynov",
+    "reason": "Company recently expanded operations, pending compliance review.",
+    "score": 0.70
+  },
+  {
+    "voen_id": "8899001122",
+    "main_info": {
+      "name": "Smart Retailers",
+      "address": "202 Market St, Baku",
+      "phone": "+994 55 444 5566",
+      "registration_date": "2018-08-22"
+    },
+    "fin": "AZE1112223",
+    "owner": "Nigar Guliyeva",
+    "reason": "No compliance issues detected, regular financial reporting.",
+    "score": 0.90
+  },
+  {
+    "voen_id": "9900112233",
+    "main_info": {
+      "name": "Eco Energy Ltd",
+      "address": "303 Green Blvd, Baku",
+      "phone": "+994 70 666 7788",
+      "registration_date": "2019-12-01"
+    },
+    "fin": "AZE9876543",
+    "owner": "Leyla Aliyeva",
+    "reason": "Recent audit found minor discrepancies, corrective actions underway.",
+    "score": 0.75
+  },
+  {
+    "voen_id": "2233445566",
+    "main_info": {
+      "name": "Urban Developers",
+      "address": "404 City Center, Baku",
+      "phone": "+994 12 888 9999",
+      "registration_date": "2013-05-17"
+    },
+    "fin": "AZE4445556",
+    "owner": "Farid Abbasov",
+    "reason": "Pending investigation for irregular land acquisition.",
+    "score": 0.50
+  },
+  {
+    "voen_id": "3344556677",
+    "main_info": {
+      "name": "MedTech Innovations",
+      "address": "505 Health St, Baku",
+      "phone": "+994 77 111 2233",
+      "registration_date": "2021-01-30"
+    },
+    "fin": "AZE2223334",
+    "owner": "Aysel Rahimova",
+    "reason": "Newly registered company, no compliance history yet.",
+    "score": 0.80
+  }
+]
